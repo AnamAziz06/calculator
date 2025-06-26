@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [input, setInput] = useState("abc");
+  const [input, setInput] = useState("");
   const [num1, setNum1] = useState(null);
   const [operator, setOperator] = useState(null);
   const [waitingForNum2, setWaitingForNum2] = useState(false);
